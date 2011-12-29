@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D96F350813AD573D0010B207 /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D96F350713AD573D0010B207 /* ContainerView.m */; };
+		D96F350B13AD83820010B207 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96F350A13AD83820010B207 /* QuartzCore.framework */; };
 		D9E67E2B13AA7BF500AB5A38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E67E2A13AA7BF500AB5A38 /* UIKit.framework */; };
 		D9E67E2D13AA7BF500AB5A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E67E2C13AA7BF500AB5A38 /* Foundation.framework */; };
 		D9E67E2F13AA7BF500AB5A38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E67E2E13AA7BF500AB5A38 /* CoreGraphics.framework */; };
 		D9E67E3513AA7BF500AB5A38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9E67E3313AA7BF500AB5A38 /* InfoPlist.strings */; };
 		D9E67E3713AA7BF500AB5A38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E67E3613AA7BF500AB5A38 /* main.m */; };
 		D9E67E3B13AA7BF500AB5A38 /* ContainerTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E67E3A13AA7BF500AB5A38 /* ContainerTestAppDelegate.m */; };
+		D9E67E4313AA7C2500AB5A38 /* TestChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E67E4213AA7C2500AB5A38 /* TestChildViewController.m */; };
+		D9E67E4913AA7C4B00AB5A38 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E67E4813AA7C4A00AB5A38 /* ContainerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D96F350613AD573D0010B207 /* ContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
+		D96F350713AD573D0010B207 /* ContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
+		D96F350A13AD83820010B207 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D9E67E2613AA7BF500AB5A38 /* ContainerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E67E2A13AA7BF500AB5A38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9E67E2C13AA7BF500AB5A38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9E67E2E13AA7BF500AB5A38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D9E67E3213AA7BF500AB5A38 /* ContainerTest-Info.plist */ = {isa = PBXFileReference; path = "ContainerTest-Info.plist"; sourceTree = "<group>"; };
+		D9E67E3213AA7BF500AB5A38 /* ContainerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ContainerTest-Info.plist"; sourceTree = "<group>"; };
 		D9E67E3413AA7BF500AB5A38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9E67E3613AA7BF500AB5A38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D9E67E3813AA7BF500AB5A38 /* ContainerTest-Prefix.pch */ = {isa = PBXFileReference; path = "ContainerTest-Prefix.pch"; sourceTree = "<group>"; };
-		D9E67E3913AA7BF500AB5A38 /* ContainerTestAppDelegate.h */ = {isa = PBXFileReference; path = ContainerTestAppDelegate.h; sourceTree = "<group>"; };
+		D9E67E3813AA7BF500AB5A38 /* ContainerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContainerTest-Prefix.pch"; sourceTree = "<group>"; };
+		D9E67E3913AA7BF500AB5A38 /* ContainerTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerTestAppDelegate.h; sourceTree = "<group>"; };
 		D9E67E3A13AA7BF500AB5A38 /* ContainerTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerTestAppDelegate.m; sourceTree = "<group>"; };
+		D9E67E4113AA7C2500AB5A38 /* TestChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestChildViewController.h; sourceTree = "<group>"; };
+		D9E67E4213AA7C2500AB5A38 /* TestChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestChildViewController.m; sourceTree = "<group>"; };
+		D9E67E4713AA7C4A00AB5A38 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		D9E67E4813AA7C4A00AB5A38 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96F350B13AD83820010B207 /* QuartzCore.framework in Frameworks */,
 				D9E67E2B13AA7BF500AB5A38 /* UIKit.framework in Frameworks */,
 				D9E67E2D13AA7BF500AB5A38 /* Foundation.framework in Frameworks */,
 				D9E67E2F13AA7BF500AB5A38 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +74,7 @@
 		D9E67E2913AA7BF500AB5A38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D96F350A13AD83820010B207 /* QuartzCore.framework */,
 				D9E67E2A13AA7BF500AB5A38 /* UIKit.framework */,
 				D9E67E2C13AA7BF500AB5A38 /* Foundation.framework */,
 				D9E67E2E13AA7BF500AB5A38 /* CoreGraphics.framework */,
@@ -74,6 +87,12 @@
 			children = (
 				D9E67E3913AA7BF500AB5A38 /* ContainerTestAppDelegate.h */,
 				D9E67E3A13AA7BF500AB5A38 /* ContainerTestAppDelegate.m */,
+				D9E67E4113AA7C2500AB5A38 /* TestChildViewController.h */,
+				D9E67E4213AA7C2500AB5A38 /* TestChildViewController.m */,
+				D9E67E4713AA7C4A00AB5A38 /* ContainerViewController.h */,
+				D9E67E4813AA7C4A00AB5A38 /* ContainerViewController.m */,
+				D96F350613AD573D0010B207 /* ContainerView.h */,
+				D96F350713AD573D0010B207 /* ContainerView.m */,
 				D9E67E3113AA7BF500AB5A38 /* Supporting Files */,
 			);
 			path = ContainerTest;
@@ -115,6 +134,9 @@
 /* Begin PBXProject section */
 		D9E67E1D13AA7BF500AB5A38 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = D9E67E2013AA7BF500AB5A38 /* Build configuration list for PBXProject "ContainerTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -150,6 +172,9 @@
 			files = (
 				D9E67E3713AA7BF500AB5A38 /* main.m in Sources */,
 				D9E67E3B13AA7BF500AB5A38 /* ContainerTestAppDelegate.m in Sources */,
+				D9E67E4313AA7C2500AB5A38 /* TestChildViewController.m in Sources */,
+				D9E67E4913AA7C4B00AB5A38 /* ContainerViewController.m in Sources */,
+				D96F350813AD573D0010B207 /* ContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +195,7 @@
 		D9E67E3C13AA7BF500AB5A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -196,7 +221,7 @@
 		D9E67E3D13AA7BF500AB5A38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -217,6 +242,7 @@
 		D9E67E3F13AA7BF500AB5A38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ContainerTest/ContainerTest-Prefix.pch";
 				INFOPLIST_FILE = "ContainerTest/ContainerTest-Info.plist";
@@ -228,6 +254,7 @@
 		D9E67E4013AA7BF500AB5A38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ContainerTest/ContainerTest-Prefix.pch";
 				INFOPLIST_FILE = "ContainerTest/ContainerTest-Info.plist";
@@ -255,6 +282,7 @@
 				D9E67E4013AA7BF500AB5A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

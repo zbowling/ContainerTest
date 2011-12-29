@@ -7,6 +7,8 @@
 //
 
 #import "ContainerTestAppDelegate.h"
+#import "ContainerViewController.h"
+#import "TestChildViewController.h"
 
 @implementation ContainerTestAppDelegate
 
@@ -16,8 +18,41 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    
+    TestChildViewController *alpha = [[TestChildViewController alloc] initWithNibName:nil bundle:nil];
+    alpha.labelText = @"top  ";
+    
+    TestChildViewController *bottom = [[TestChildViewController alloc] initWithNibName:nil bundle:nil];
+    bottom.labelText = @"bottom";
+    
+
+    
+    ContainerViewController *cvc = [[ContainerViewController alloc] initWithTopBaseViewController:alpha bottomViewController:bottom];
+    
+    UINavigationController *navc = [[UINavigationController alloc]initWithRootViewController:cvc];
+    navc.tabBarItem.title = @"Thing 1";
+    
+    TestChildViewController *two = [[TestChildViewController alloc] initWithNibName:nil bundle:nil];
+    two.labelText = @"second";
+    two.tabBarItem.title = @"Thing 2";
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc]initWithNibName:nil bundle:nil];
+    
+    [tabBarController setDelegate:self];
+    
+    tabBarController.viewControllers = [NSArray arrayWithObjects:navc, two, nil];
+    
+   
+    self.window.rootViewController = tabBarController;
+    
     [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item {
+    NSLog(@"tab bar selected");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
